@@ -9,14 +9,14 @@
   ],
   "rules": {
     "react/prop-types": 0,
-    "react-hooks/rules-of-hooks": "error"
+    "react-hooks/rules-of-hooks": "error",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
   },
-  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
-  "presets": [
-    "@babel/preset-react",
-    "@babel/preset-env",
-    "@babel/plugin-proposal-class-properties"
-  ],
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks", "jest"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
@@ -28,7 +28,8 @@
   "env": {
     "es6": true,
     "browser": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
   "settings": {
     "react": {
