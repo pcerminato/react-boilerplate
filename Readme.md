@@ -1,4 +1,6 @@
-# Configurations for
+This repo holds a quick-off configuration for starting a react app. Use it as a template for your actual repo.
+
+# Includes ready-to-go configurations for
 
 - React
 - React hooks
